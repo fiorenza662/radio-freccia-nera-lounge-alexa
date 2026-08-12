@@ -9,24 +9,24 @@
         "en-GB": {
           "name": "Radio Freccia Nera Lounge",
           "summary": "Listen to Radio Freccia Nera Lounge live on Alexa.",
-          "description": "Listen to Radio Freccia Nera Lounge live on Alexa. The station starts automatically when the skill opens. To start listening, say: Alexa, open Black Arrow Lounge.",
+          "description": "Listen to Radio Freccia Nera Lounge live on Alexa. The station starts automatically when the skill opens. To listen, say: Alexa, open Black Arrow Lounge.",
           "examplePhrases": [
             "Alexa, open Black Arrow Lounge.",
             "Alexa, ask Black Arrow Lounge to start the radio.",
             "Alexa, ask Black Arrow Lounge to play the radio."
           ],
-          "keywords": ["Radio Freccia Nera", "radio", "music", "lounge"]
+          "keywords": ["Radio Freccia Nera", "lounge", "chillout", "radio", "music"]
         },
         "it-IT": {
           "name": "Radio Freccia Nera Lounge",
           "summary": "Ascolta Radio Freccia Nera Lounge in diretta su Alexa.",
-          "description": "Ascolta Radio Freccia Nera Lounge in diretta su Alexa. La stazione parte automaticamente quando apri la skill. Per iniziare, dì: Alexa, apri Freccia Nera Lounge.",
+          "description": "Ascolta Radio Freccia Nera Lounge in diretta su Alexa. La stazione parte automaticamente quando apri la skill. Per ascoltare, dì: Alexa, apri Freccia Nera Lounge.",
           "examplePhrases": [
             "Alexa, apri Freccia Nera Lounge.",
             "Alexa, chiedi a Freccia Nera Lounge di avviare la radio.",
             "Alexa, chiedi a Freccia Nera Lounge di riprodurre la radio."
           ],
-          "keywords": ["Radio Freccia Nera", "radio", "musica", "lounge"]
+          "keywords": ["Radio Freccia Nera", "lounge", "chillout", "radio", "musica"]
         }
       }
     },

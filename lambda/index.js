@@ -1,6 +1,6 @@
 'use strict';
 const Alexa=require('ask-sdk-core');
-const STREAM='https://www.radiofreccianera.com/lounge.mp3';
+const STREAM='https://radio.radiofreccianera.com/listen/lounge/radio128.mp3';
 const ART='https://www.radiofreccianera.com/wp-content/themes/radio-freccia-nera-thematic-network-en-v2.2/assets/img/cards-pro/lounge.png';
 const isIT=h=>(Alexa.getLocale(h.requestEnvelope)||'en-GB').toLowerCase().startsWith('it');
 function play(h){return h.responseBuilder.speak('Radio Freccia Nera Lounge.').addDirective({type:'AudioPlayer.Play',playBehavior:'REPLACE_ALL',audioItem:{stream:{url:STREAM,token:'rfn-lounge-'+Date.now(),offsetInMilliseconds:0},metadata:{title:'Radio Freccia Nera Lounge',subtitle:'Radio Freccia Nera',art:{sources:[{url:ART}]},backgroundImage:{sources:[{url:ART}]}}}}).withShouldEndSession(true).getResponse();}
